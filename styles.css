@@ -1,64 +1,85 @@
-header{
-	 background-color: #000000;
-
-	  position: -webkit-sticky; /* Safari */
-	  position: sticky;
-	  top: 0;
-	  z-index: 99;
+header {
+  background-color: #000000;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
-.mainbody{
-	background-color: #1a1a1a;
-	background-image: url("https://images.pexels.com/photos/755405/pexels-photo-755405.jpeg?cs=srgb&dl=architecture-buildings-city-755405.jpg&fm=jpg");
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: top center !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px; 
+.mainbody {
+  background-color: #1a1a1a;
+  background-image: url("https://images.pexels.com/photos/2129814/pexels-photo-2129814.png?cs=srgb&dl=architecture-bridge-buildings-2129814.jpg&fm=jpg");
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
-section.sec2{
-	background-color: #FFFFFF;
-	/*background-image: url("	https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg?cs=srgb&dl=4k-wallpaper-adventure-aerial-670061.jpg&fm=jpg");*/
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: top center !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed;
-	width: auto;
-	padding: 500px;
-	opacity: 0.8;
-  	filter: alpha(opacity=50); /* For IE8 and earlier */
+section.about {
+  background-color: #e8e8e8;
+  /*background-image: url("	https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg?cs=srgb&dl=4k-wallpaper-adventure-aerial-670061.jpg&fm=jpg");*/
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  width: auto;
 
-
-
+  padding: 400px;
+  /*opacity: 0.8;*/
+  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-
-section.intro{
-	background-color: #000002;
-	/*background-image: url("https://images.pexels.com/photos/764683/pexels-photo-764683.jpeg?cs=srgb&dl=art-beautiful-blur-764683.jpg&fm=jpg");*/
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: top center !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed;
-	width: auto;
-	padding: 500px;
-	opacity: 0.85;
-  	filter: alpha(opacity=50); /* For IE8 and earlier */
-
-
+section.home {
+  background-color: #8b9aa3;
+  /*background-image: url("https://images.pexels.com/photos/764683/pexels-photo-764683.jpeg?cs=srgb&dl=art-beautiful-blur-764683.jpg&fm=jpg");*/
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  width: auto;
+  padding: 350px;
+  /*opacity: 0.8;*/
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+section.expirience {
+  background-color: #ededed;
+  /*background-image: url("	https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg?cs=srgb&dl=4k-wallpaper-adventure-aerial-670061.jpg&fm=jpg");*/
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  width: auto;
+  padding: 350px;
+  /*opacity: 0.8;*/
+  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-
+section.projects {
+  background-color: #ededed;
+  /*background-image: url("	https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg?cs=srgb&dl=4k-wallpaper-adventure-aerial-670061.jpg&fm=jpg");*/
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  width: auto;
+  padding: 350px;
+  /*opacity: 0.8;*/
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
 /* Style The Dropdown Button */
 .dropbtn {
@@ -75,7 +96,6 @@ section.intro{
   /*position: relative;*/
   display: inline-block !important;
   /*text-align: 0 center;	*/
-
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -90,7 +110,7 @@ section.intro{
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -98,9 +118,8 @@ section.intro{
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-	/*background-color: #312E2E*/
-	color: #de4b64;
-	font-weight: bold;
+  color: #de4b64;
+  font-weight: bold;
 }
 
 /* Show the dropdown menu on hover */
@@ -110,90 +129,241 @@ section.intro{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #de4b64 ;
+  background-color: #de4b64;
 }
 
-
-
-
-.material-icons{
-
-	float: left;
-	/*background-image: url("/home/hernan/Desktop/PROJECTS/PORTFOLIO/sharp_menu_white_24dp.png");*/
-	z-index: 99;
+.material-icons {
+  float: left;
+  /*background-image: url("/home/hernan/Desktop/PROJECTS/PORTFOLIO/sharp_menu_white_24dp.png");*/
+  z-index: 1;
 }
 
-.name{
-	color: #FFFFFF ;
-  	text-decoration: none;
-  	display: block;
-
+.name {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  position: relative;
 }
 
-.home-button{
-	border: none;
-	background-color: #000000;
+.home-button {
+  border: none;
+  background-color: #000000;
 }
-.home{
-	/*margin: 10px 10px;*/
+.home-button a {
+  display: block;
+}
+.home-icon {
+  /*margin: 10px 10px;*/
   position: absolute;
-  top: 0px;
+  /*top: 0px;*/
   margin-top: 0px;
 
- 
   display: inline-block !important;
-
-
-
 }
 
-.home-button:hover{
-	  background-color: #de4b64 
+.home-button:hover {
+  background-color: #de4b64;
 }
-
-
-
-
 
 .user {
-	background-image: url("https://images.pexels.com/photos/1331821/cat-eyes-angry-suspicious-1331821.jpeg?cs=srgb&dl=angry-animal-cat-1331821.jpg&fm=jpg");
+  background-image: url("/home/hernan/PROJECTS/PORTFOLIO/IMG_1933.jpg");
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 0px 0px 0px 15px;
   background-size: cover;
   position: absolute;
-  left:50px;
-  top:60px;
 
+  left: 300px;
+  top: 850px;
 }
 
-
-.home h2{
-
-	font-family: 'Ubuntu', sans-serif;
-		color: #FFFFFF;
-
-
+.home-icon h2 {
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
 }
 
-h4, h1{
-	font-family: 'Space Mono', monospace;
-	color: #FFFFFF ;
-
+.col-twelve h1 {
+  font-size: 60px;
+  font-family: "Space Mono", monospace;
+  color: #ffffff;
 }
 
-.col-twelve h4{
-	position: relative;
-	left: 20px;
-
-	font-family: 'Space Mono', monospace;
-	color: #de4b64 
+.col-twelve h4 {
+  font-size: 20px;
+  font-family: "Space Mono", monospace;
+  color: #de4b64;
 }
 
-.col-twelve{
-	position: absolute;
-  	top:150px;
+.col-twelve {
+  position: absolute;
+  top: 100px;
+  left: 470px;
+}
+
+.image {
+  float: right;
+  margin-left: 160px;
+  margin-top: 11px;
+}
+
+.more {
+  background-color: #97bacf;
+  position: absolute;
+  top: 480px;
+  left: 470px;
+  opacity: 0.85;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.name2 h2 {
+  background-color: #97bacf;
+  font-size: 20px;
+  font-family: "Space Mono", monospace;
+  color: #ffffff;
+}
+.name2 {
+  background-color: #97bacf;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  border: none;
+  position: relative;
+
+  float: left;
+}
+
+.learn-more {
+  background-color: #97bacf;
+
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+
+.material-icons2 {
+  float: right;
+  color: #ffffff;
+}
+
+.learn-more:hover {
+  border: 1px solid #de4b64;
+}
+
+.github-circle {
+  float: right;
+  margin-right: 0px;
+}
+.git {
+  background-color: #000002;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+
+.git:hover {
+  background-color: #de4b64;
+}
+.linkedin {
+  background-color: #000002;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+
+.linkedin:hover {
+  background-color: #de4b64;
+}
+.instagram {
+  background-color: #000002;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+
+.instagram:hover {
+  background-color: #de4b64;
+}
+
+.linkedIn-circle {
+  float: right;
+}
+
+.instagram-circle {
+  float: right;
+}
+
+.about-me p {
+  color: #000000;
+  position: absolute;
+  left: 550px;
+  top: 900px;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 350px;
+  height: 10px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(
+      -45deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)),
+    -webkit-linear-gradient(left, #09c, #f44);
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.skills {
+  position: absolute;
+  left: 800px;
+  top: 1000px;
+}
+.contact {
+  position: absolute;
+  left: 400px;
+  top: 1100px;
+}
+
+.css-3 {
+  position: absolute;
+  top: 1125px;
+  left: 800px;
+}
+.html-5 {
+  position: absolute;
+  top: 1055px;
+  left: 800px;
+}
+
+.python-3 {
+  position: absolute;
+  top: 1305px;
+  left: 800px;
+}
+
+.java-11 {
+  position: absolute;
+  top: 1265px;
+  left: 800px;
 }
